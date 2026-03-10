@@ -1,6 +1,6 @@
 cask "echo" do
   version "1.0,1"
-  sha256 :no_check # This will be updated with the actual SHA256 of the release zip
+  sha256 "6b9f6bd04e739a669538eeea465621ef63e1ad4b66f338433b77dceaa3fc1b58"
 
   url "https://github.com/tashda/Echo/releases/download/v#{version.before_comma}-#{version.after_comma}/Echo.zip"
   name "Echo"
